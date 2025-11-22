@@ -1,3 +1,71 @@
+.logo {
+           height: 50px;
+       }
+       .navbar {
+           backdrop-filter: blur(30px);
+           background-color: rgba(255, 255, 255, 0.848);
+            background: transparent;
+           box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+           transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+           z-index: 99;
+       }
+       .navbar-brand,
+       .navbar-nav .nav-link {
+           color: rgb(2, 2, 2);
+           font-family: serif;
+       }
+       .navbar-toggler {
+           border: solid;
+           color: white;
+           font-size: 1.5rem;
+       }
+       .offcanvas {
+           background-color: #ffffff;
+           color: rgb(20, 2, 2);
+           width: 250px;
+       }
+       .offcanvas a {
+           color: rgb(19, 3, 3);
+           text-decoration: none;
+           font-size: 1.1rem;
+           display: block;
+           font-family: Arial, Helvetica, sans-serif;
+           padding: 10px 0;
+       }
+       .offcanvas a:hover {
+           background-color: rgba(255, 255, 255, 0.2);
+           border-radius: 5px;
+           transform: scale(1.05);
+           box-shadow: 0 4px 15px rgba(0, 0, 0, 00.3s);
+           color: rgb(230, 25, 25);
+           font-family: serif;
+           border-bottom: 1px solid rgb(221, 11, 11);
+       }
+       .offcanvas.show {
+           transition: all 0.3s ease;
+       }
+       .social-links {
+           margin-top: 50px;
+           padding-top: 50px;
+           display: inline-block;
+       }
+       .offcanvas-title {
+           height: 100px;
+           width: 100px;
+       }
+       .btn-close {
+           background-color: red;
+           opacity: 100%;
+       }
+       .nav-link:hover {
+           transform: scale(1.05);
+           box-shadow: 0 4px 15px rgba(0, 0, 0, 00.3s);
+           color: rgb(199, 28, 28);
+           font-family: serif;
+           border-bottom: 2px solid rgb(218, 55, 55);
+       }
+
+
 
 footer {
         background-color: #faf9f6;
